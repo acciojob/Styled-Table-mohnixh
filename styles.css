@@ -1,1 +1,24 @@
 /* your code */
+table {
+    width: 100%;
+    border-collapse: separate; /* Use separate for border-radius */
+    border-spacing: 0; /* Ensures no gaps between cells */
+    margin: 20px auto;
+    font-size: 18px;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 5px;	
+}
+
+th, td {
+    padding: 10px 15px;
+}
+thead tr{
+	background-color: teal;
+}
+tbody tr:nth-child(2) {
+    background-color: lightgray;
+}
+tbody tr:nth-child(4) {
+    background-color: lightgray;
+}
